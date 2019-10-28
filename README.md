@@ -1,6 +1,6 @@
-#Black-box Adversarial Attacks on Video Recognition Models. (VBAD)
+# Black-box Adversarial Attacks on Video Recognition Models. (VBAD)
 
-##Introduction
+## Introduction
 
 This is the code for the paper "Black-box Adversarial Attacks on Video Recognition Models". It utilizes transferred 
 perturbations from ImageNet pre-trained model and reduce dimensionality of attack space by partition-based rectification
@@ -13,17 +13,16 @@ pip install -r requirements.txt  # install requirements
 ```
 
 We use the pre-trained I3D model from https://github.com/piergiaj/pytorch-i3d.
-Please download the model `rgb_imagenet.pt` and put it under path `inception_i3d/models/rgb_imagenet.pt`
 
-##Usage
+## Usage
 
-###Targeted attack
+### Targeted attack
 Run `sh ./targeted_attack.sh`
 
-###Untargetd attack
+### Untargetd attack
 Run `sh ./untargeted_attack.sh`
 
-##Cite
+## Cite
 If you find this work is useful, please cite the following:
 ```
 @inproceedings{jiang2019black,
@@ -40,5 +39,5 @@ If you find this work is useful, please cite the following:
 }
 ```
 
-##Contact
+## Contact
 For questions related to VBAD, please send an email to `lxjiang18@fudan.edu.cn`
