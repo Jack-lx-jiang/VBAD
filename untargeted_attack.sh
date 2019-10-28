@@ -1,0 +1,1 @@
+python main.py --gpus 0 --untargeted  --sigma 1e-3  --adv-save-path 'videos/untargeted_adv.npy'

@@ -1,0 +1,1 @@
+python main.py --gpus 0 --adv-save-path 'videos/targeted_adv.npy'
